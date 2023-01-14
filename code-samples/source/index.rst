@@ -10,6 +10,10 @@ Welcome to Display code's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   doctest-blocks
+   literal-blocks
+   highlight-directive
+   parsed-literal-directive
 
 
 Indices and tables
