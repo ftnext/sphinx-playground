@@ -8,13 +8,18 @@ Welcome to Display code's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: シンタックスハイライトしたコードの表示
 
    doctest-blocks
    literal-blocks
    highlight-directive
    parsed-literal-directive
 
+.. toctree::
+   :maxdepth: 2
+   :caption: literalincludeディレクティブのオプション
+
+   literalinclude-practice
 
 Indices and tables
 ==================
