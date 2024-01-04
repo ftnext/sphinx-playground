@@ -6,11 +6,7 @@
 Welcome to Black and White PDF's documentation!
 ===============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
+Awesome link: https://github.com/ftnext/sphinx-playground
 
 Indices and tables
 ==================

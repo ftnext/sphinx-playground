@@ -27,3 +27,15 @@ language = 'ja'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# -- Options for LaTeX PDF output --------------------------------------------
+PREAMBLE = r"""
+% ハイパーリンクに色がつかない。ただし水色の線で囲まれる
+% \hypersetup{colorlinks=false}
+
+% ハイパーリンクに色がつかず、囲みもない
+\hypersetup{hidelinks}
+"""
+latex_elements = {
+    "preamble": PREAMBLE
+}
