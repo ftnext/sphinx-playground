@@ -6,9 +6,7 @@
 Welcome to theme-practice's documentation!
 ==========================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+hoge **foo** fuga
 
 
 
