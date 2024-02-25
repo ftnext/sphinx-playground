@@ -4,10 +4,11 @@ set -euo pipefail
 PROJECT_NAME=$1
 
 sphinx-quickstart \
-    --sep \
+    -q \
     -p "${PROJECT_NAME}" \
     -a nikkie \
+    -v '' \
     -l ja \
-    -r '' \
+    --sep \
     --ext-githubpages \
     --no-batchfile
