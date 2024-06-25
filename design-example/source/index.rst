@@ -6,11 +6,14 @@
 Welcome to sphinx-design-example's documentation!
 =================================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Icons example
+-------------
 
+https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#inline-icons
 
+A icon: :octicon:`report`, some more text.
+
+A coloured icon: :octicon:`report;1em;sd-text-info`, some more text.
 
 Indices and tables
 ==================
