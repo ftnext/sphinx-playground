@@ -6,12 +6,17 @@
 image-samples documentation
 ===========================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+image as a link
+---------------
 
+figure directive
+^^^^^^^^^^^^^^^^
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. image:: _static/pyconjp2019.jpg
+    :target: https://www.flickr.com/photos/pyconjp/48743997848/in/album-72157710870622516/
 
+image directive
+^^^^^^^^^^^^^^^
+
+.. image:: _static/breakfast.jpg
+    :target: https://www.flickr.com/photos/pyconjp/48818171768/in/album-72157710870622516/
