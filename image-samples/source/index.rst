@@ -12,7 +12,7 @@ image as a link
 figure directive
 ^^^^^^^^^^^^^^^^
 
-.. image:: _static/pyconjp2019.jpg
+.. figure:: _static/pyconjp2019.jpg
     :target: https://www.flickr.com/photos/pyconjp/48743997848/in/album-72157710870622516/
 
 image directive
