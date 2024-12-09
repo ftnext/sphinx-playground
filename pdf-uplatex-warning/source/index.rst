@@ -9,3 +9,8 @@ uplatexでwarningの例
 
 吾輩は猫である。
 名前はまだ無い⋯⋯
+
+.. uplatex（language="ja"のデフォルト）では ⋯ が以下をもたらす
+   dvipdfmx:warning: No character mapping available.
+    CMap name: UniJIS-UTF16-H
+    input str: <22ef>

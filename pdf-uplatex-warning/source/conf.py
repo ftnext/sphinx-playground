@@ -25,3 +25,7 @@ language = 'ja'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-latex_engine
+# languageが'ja'なので、デフォルトは"uplatex"。22efをPDFに表示するため、これを"platex"に変更する
+latex_engine = "platex"
