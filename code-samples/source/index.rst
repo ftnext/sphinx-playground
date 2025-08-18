@@ -7,6 +7,12 @@ Welcome to Display code's documentation!
 ========================================
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Pythonに関係する language の指定
+
+   pygments-python-lexers
+
+.. toctree::
    :maxdepth: 2
    :caption: シンタックスハイライトしたコードの表示
 
