@@ -16,6 +16,10 @@ author = 'nikkie'
 extensions = [
     'myst_parser',
 ]
+myst_enable_extensions = [
+    "linkify",
+]
+myst_linkify_fuzzy_links = False
 
 templates_path = ['_templates']
 exclude_patterns = []
