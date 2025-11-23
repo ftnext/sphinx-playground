@@ -3,7 +3,10 @@ module.exports = {
   author: 'nikkie', // default to `author` in `package.json` or undefined.
   // language: 'ja', // default to undefined.
   // size: 'A4', // paper size.
-  theme: '@vivliostyle/theme-techbook@^2.0.1', // .css or local dir or npm package. default to undefined.
+  theme: [
+    '@vivliostyle/theme-techbook@^2.0.1',
+    'theme/theme-custom',
+  ], // .css or local dir or npm package. default to undefined.
   entry: [
     'manuscript.md', // `title` is automatically guessed from the file (frontmatter > first heading).
     // {

@@ -1,8 +1,18 @@
 # Brief History of JavaScript
 
+リンクのある後注の例：
+VFM is developed in the GitHub repository[^1].
+Issues are managed on GitHub[^issues].
+Endnotes can also be written inline^[This part is a endnote.].
+
+[^1]: [VFM](https://github.com/vivliostyle/vfm)
+[^issues]: [Issues](https://github.com/vivliostyle/vfm/issues)
+
 from Wikipedia <https://en.wikipedia.org/wiki/JavaScript>
 
 https://example.com/
+
+「さよなら。」って、その子は花<span class="footnote">この部分が脚注になります。</span>に言った。
 
 <nav id="toc" role="doc-toc">
 </nav>
