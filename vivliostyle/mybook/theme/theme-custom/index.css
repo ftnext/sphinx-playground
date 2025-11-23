@@ -1,20 +1,9 @@
-/* https://zenn.dev/macneko/articles/e08dcfaef8e6b0#url%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A6%E8%87%AA%E5%8B%95%E3%81%A7%E7%94%9F%E6%88%90%E3%81%95%E3%82%8C%E3%82%8B%E8%84%9A%E6%B3%A8%E8%A1%A8%E8%A8%98%E3%82%92%E7%84%A1%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B */
 /* 
- * footnote-external-link
+ * Tweak macneko's footnote-external-link
  */
 @media print {
   /* URL では脚注番号が進まないようにする */
   :not(.footnote) > a[href^='http'] {
     counter-increment: none;
-  }
-
-  /* URL に対して自動生成された脚注表記を非表示にする */
-  :not(.footnote) > a[href^='http']::before {
-    display: none;
-  }
-
-  :not(.footnote) > a[href^='http']::after {
-  /* URL の後ろに付与された脚注番号を非表示にする */
-    display: none;
   }
 }

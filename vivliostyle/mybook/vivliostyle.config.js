@@ -4,7 +4,7 @@ module.exports = {
   // language: 'ja', // default to undefined.
   // size: 'A4', // paper size.
   theme: [
-    '@vivliostyle/theme-techbook@^2.0.1',
+    'vivliostyle-theme-macneko-techbook@^0.4.0',
     'theme/theme-custom',
   ], // .css or local dir or npm package. default to undefined.
   entry: [
