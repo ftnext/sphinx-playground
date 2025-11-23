@@ -3,6 +3,11 @@
  * footnote-external-link
  */
 @media print {
+  /* URL では脚注番号が進まないようにする */
+  :not(.footnote) > a[href^='http'] {
+    counter-increment: none;
+  }
+
   /* URL に対して自動生成された脚注表記を非表示にする */
   :not(.footnote) > a[href^='http']::before {
     display: none;
