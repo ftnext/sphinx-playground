@@ -1,0 +1,15 @@
+{
+  "name": "mybook",
+  "description": "mybook",
+  "version": "0.0.0",
+  "author": "nikkie",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest"
+  },
+  "license": "MIT",
+  "private": true
+}
